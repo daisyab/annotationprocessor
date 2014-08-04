@@ -56,7 +56,7 @@ public class ActionProcessor extends AbstractProcessor{
                 try{
                     PrintWriter printwriter = new PrintWriter(writer);
                     printwriter.println("package " +
-                            clazz.getEnclosingElement() + ";");
+                            clazz.getEnclosingElement() + ";");  //prints package com.main.java.gsoc;
                     printwriter.println();
                     printwriter.println("public abstract class " +
                             clazz.getSimpleName() + "2{");
